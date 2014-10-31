@@ -15,7 +15,7 @@ from faker import Faker
 fake = Faker()
 
 
-ES_HTTP_AUTH = 'elastic:AS8V2S27'
+ES_HTTP_AUTH = 'test:1234'
 
 ES_NODES = [
     {'host': '10.2.0.201', 'port': 9200, 'http_auth': ES_HTTP_AUTH},
